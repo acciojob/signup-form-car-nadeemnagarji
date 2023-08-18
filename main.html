@@ -9,13 +9,13 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form class="form"  method="post">
-			<label>Name</label>
-		<input type="text" placeholder="Name" required for="name">
+			<label for="name">Name</label>
+		<input type="text" placeholder="Name" required id="name">
 			<br>
-		<label>Email</label>
-		<input type="email" placeholder="Email" required for="name">
+		<label  for="name" >Email</label>
+		<input type="email" placeholder="Email" required id="email">
 		<br>
-		<label>Gender</label>
+		<label for="gender">Gender</label>
 		<input type="radio" required id="gender_m" name="gender">Male
 		<input type="radio" required id="gender_f" name="gender"> Female
 		<br>
@@ -26,19 +26,19 @@
       <option value="uk">AUDi</option> -->
 		</select>
 		<br>
-		<label>Age</label>
-		<input type="number" required for="age" placeholder="Age">
+		<label for="age">Age</label>
+		<input type="number" required  placeholder="Age" id="age">
 		<br>
-		<lable>DOB</lable>
-		<input type="date"   required for="dob">
+		<lable for="dob" >DOB</lable>
+		<input type="date"  id="dob" required id="dob">
 		<br>
-		<lable>Phone Number</lable>
-		<input type="tel" for="tel" placeholder="xxx-xxx-xxxx">
+		<lable for="tel" >Phone Number</lable>
+		<input type="tel"  placeholder="xxx-xxx-xxxx" id="tel">
 			<br>
-		<lable>Password</lable>
-		<input type="password" for="password	" required placeholder="Password">
+		<lable for="password	">Password</lable>
+		<input type="password"  required placeholder="Password" id="password">
 		<br>
-			<input type="checkbox" for="tos" required>I agree to the TOS
+			<input type="checkbox" required>I agree to the TOS
 		<br>
 		<button type="submit">Submit</button>
 	</form>
